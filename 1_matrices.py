@@ -14,8 +14,8 @@ print(f"Shape(B) : {B.shape}")
 # [43   50]
 
 A = np.arange(1, 7).reshape(2, 3)
-B = np.random.rand(2, 5)
+B = np.random.rand(3, 5)
 print(f"\nA @ B : {A @ B}")
 
 # Prédiction de (A@B).shape :
-# ça va pas fonctionné puisqu'il faut que A ait autant de colonnes que B a de lignes
+# (2, 5)
