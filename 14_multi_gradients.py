@@ -58,5 +58,3 @@ dZ = 2 * E / Z.size     # (n , m) => (3, 2)
 """Partie C"""
 print(X.T @ dZ)
 # -2.13333333 <=> correct
-
-"""Partie D"""
