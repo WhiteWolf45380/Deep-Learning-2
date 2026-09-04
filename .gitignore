@@ -17,6 +17,9 @@ venv_build/
 .env/
 .env.*
 
+# Données externes
+data/
+
 # ========================= IDE =========================
 .vscode/
 .idea/

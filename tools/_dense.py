@@ -24,8 +24,8 @@ class Dense(Layer):
         self._m: int = m
 
         # Paramètres de la couche
-        self._W: NDArray = np.random.random((n, m))
-        self._b: NDArray = np.random.rand(m)
+        self._W: NDArray = np.random.randn(n, m) * np.sqrt(2 / n)
+        self._b: NDArray = np.zeros(m)
 
         # Sauvegarde de la sortie courante
         self._Z: NDArray | None = None
